@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CALCULATOR</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body class="bg-warning">
+ <!-- <div id="calculator" class="container-fluid  shadow mx-auto  col-3">
+
+ </div> -->
+
+ <img id="phone" src="image/kisspng-illustrator-iphone-5ac8f6e9867da2.4118764215231198495509.png" alt="">
+
+<!-- <div class="container-fluid bg-white shadow mx-auto col-3-lg col-7 p-4"  style="margin-top: 100px !important; height: 500px; border-radius: 15px !important;"> -->
+ <div class="container-fluid bg-white shadow mx-auto  col-3  " id="body"  >
+  
+  
+  <input type="text"  class="bg-light form-control w-50" id="inp" >
+
+  <div class="mt-3">
+  
+
+   <div>
+    <button class="shadow" onclick="clearAll()">C</button>
+    <button class="shadow" onclick="clearLast()">AC</button>
+    <button class="shadow" onclick="total('/')">⊹</button>
+    <button class="shadow" onclick="total('*')">*</button>
+   </div>
+   <div>
+    <button class="shadow" onclick="total(7)">7</button>
+    <button class="shadow" onclick="total(8)">8</button>
+    <button class="shadow" onclick="total(9)">9</button>
+    <button class="shadow" onclick="total('-')">-</button>
+   </div>
+   <div>
+    <button class="shadow" onclick="total(4)">4</button>
+    <button class="shadow" onclick="total(5)">5</button>
+    <button class="shadow" onclick="total(6)">6</button>
+    <button class="shadow" onclick="total('+')">+</button>
+   </div>
+   <div>
+    <button class="shadow" onclick="total(1)">1</button>
+    <button class="shadow" onclick="total(2)">2</button>
+    <button class="shadow" onclick="total(3)">3</button>
+   </div>
+   <div id="last-button">
+   <button id="zero" class="shadow" onclick="total(0)">0</button>
+   <button id="point" class="shadow" onclick="total('.')">.</button>
+   <button id="answer" class="shadow" onclick="myAnswer()">=</button>
+   </div>
+
+  </div>
+ </div>
+
+
+<button id="off" onclick="off()" ></button>
+ <script src="script.js"></script>
+</body>
+</html>

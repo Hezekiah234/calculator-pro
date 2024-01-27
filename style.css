@@ -1,0 +1,133 @@
+/* #phone{
+background: url(image/kisspng-illustrator-iphone-5ac8f6e9867da2.4118764215231198495509.png);
+} */
+#body{
+ height: 541px !important;
+ border-radius: 3px;
+ width: 304px;
+ position: absolute;
+ top: 97px;
+ left: 558px;
+}
+#phone{
+ position: relative;
+ top: 10px;
+ left: 460px;
+/* margin-bottom: 700px; */
+width: 500px;
+/* height: 700px; */
+}
+#off{
+ width: 50px;
+ height: 50px;
+ border-radius: 100%;
+ position: relative;
+ left: 180px;
+ top: 333px;
+ border: none;
+}
+/* #calculator{
+ position: absolute;
+ top: 200px;
+ left: 600px;
+
+} */
+button{
+ width: 65px;
+ height: 80px;
+ gap: 500px;
+ border: none;
+ margin-top: 4px !important;
+ /* box-shadow: 1px 1px 1px; */
+}
+#inp{
+ position: relative;
+ top: 0px;
+ left: -11px;
+ width: 302px !important;
+ height: 100px;
+
+}
+
+#zero{
+ width: 135px;
+ position: relative;
+ bottom: 40px;
+}
+#answer{
+ height: 160px;
+ position: relative;
+ bottom: 80px;
+}
+#point{
+ position: relative;
+ bottom: 40px;
+}
+
+
+@media screen and (max-width:478px) {
+ #body{
+  /* margin-top: 70px; */
+  height: 432px !important;
+  border-radius: 2px;
+  width: 244px;
+  position: relative;
+  left: 0px !important;
+  top: 90px !important;
+ }
+ #phone{
+  position: absolute;
+  top: 20px;
+  left: -5px;
+ /* margin-bottom: 700px; */
+ width: 400px;
+ /* height: 700px; */
+ }
+ #off{
+  width: 39px;
+  height: 39px;
+  border-radius: 100%;
+  position: relative;
+  left: 175px;
+  /* background-color: aquamarine; */
+  top: 97px;
+  border: none;
+ }
+
+ button{
+  width: 50px;
+  height: 50px;
+  gap: 500px !important;
+  margin-top: 5px !important;
+  border: none;
+  /* box-shadow: 1px 1px 1px; */
+ }
+ #inp{
+  position: relative;
+  top: 0px;
+  left: -10px;
+  width: 241px !important;
+  height: 100px;
+ 
+ }
+ 
+ #zero{
+  width: 110px;
+  position: relative;
+  bottom: 25px !important;
+ }
+ #answer{
+  height: 100px;
+  position: relative;
+  bottom: 50px;
+  left: -5px;
+ }
+ #point{
+  position: relative;
+  bottom: 25px;
+  left: 0px;
+ }
+}
+/* @media screen and (mini-width:768px  max-width:1024px) {
+
+} */
